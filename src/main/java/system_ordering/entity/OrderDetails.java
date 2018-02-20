@@ -10,5 +10,11 @@ public class OrderDetails {
 	public int getNoOfBricks() {
 		return noOfBricks;
 	}
+	public void setOrderReference(String orderReference) {
+		this.orderReference = orderReference;
+	}
+	public void setNoOfBricks(int noOfBricks) {
+		this.noOfBricks = noOfBricks;
+	}
 
 }
